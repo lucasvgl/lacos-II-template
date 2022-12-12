@@ -34,4 +34,19 @@ const filmes = [
   },
 ]
 
+// for (let i=0; i<=filmes.length; i++){
+//   console.log(`${filmes[i].titulo}de ${filmes[i].ano}dirigido por ${filmes[i].diretor}`)
+//     for (let j of filmes[i].elenco){
+//       console.log(`Elenco: ${j}`)
+//     }
+// }
+
+
+
+for (let i in filmes){
+  console.log(`${filmes[i].titulo}de ${filmes[i].ano}dirigido por ${filmes[i].diretor}`)
+    for (let j of filmes[i].elenco){
+      console.log(`Elenco: ${j}`)
+    }
+}
 // escreva seu código abaixo 👇🏻
